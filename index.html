@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pathways &mdash; Your UWC Application Companion</title>
+  <meta name="description" content="An independent, student-built guide to help you prepare a thoughtful, authentic UWC application — essays, interviews, leadership stories, and more." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="KinStyle.css" />
+</head>
+<body data-theme="light">
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ================= LOADING SCREEN ================= -->
+  <div class="loading-screen" id="loadingScreen" aria-hidden="true">
+    <svg class="loading-screen__mark" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="50" cy="50" r="42" fill="none" stroke="#F4A340" stroke-width="4" stroke-dasharray="10 8" stroke-linecap="round"/>
+      <path d="M30 55 C40 30, 60 30, 70 55" fill="none" stroke="#7FA88E" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="50" cy="50" r="6" fill="#E8674A"/>
+    </svg>
+    <p class="loading-screen__text">Packing your travel journal&hellip;</p>
+  </div>
+
+  <!-- ================= SCROLL PROGRESS ================= -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ================= HEADER / NAV ================= -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#" class="nav__brand" data-page-link="landing">
+        <svg class="nav__brand-mark" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="24" cy="24" r="20" fill="#DCEAE2"/>
+          <path d="M6 24 C6 24 14 14 24 24 C34 34 42 24 42 24" stroke="#1E3A5F" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M24 4 C24 4 30 14 24 24 C18 34 24 44 24 44" stroke="#E8674A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <circle cx="24" cy="24" r="3" fill="#F4A340"/>
+        </svg>
+        Pathways<span class="nav__brand-sub">for UWC</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Main navigation">
+        <a href="#" class="nav__link" data-page-link="landing">Home</a>
+        <a href="#" class="nav__link" data-page-link="tips">Tips Hub</a>
+        <a href="#" class="nav__link" data-page-link="articles">Articles</a>
+        <a href="#" class="nav__link" data-page-link="examples">Examples</a>
+        <a href="#" class="nav__link" data-page-link="interview">Interview Prep</a>
+        <a href="#" class="nav__link" data-page-link="stories">Experiences</a>
+        <a href="#" class="nav__link" data-page-link="about">About</a>
+        <a href="#" class="nav__link" data-page-link="contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" aria-pressed="false">
+          <svg class="icon-sun" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+          </svg>
+        </button>
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="page is-active" id="page-landing"   data-page="landing">__LANDING__</div>
+    <div class="page"          id="page-tips"       data-page="tips">__TIPS__</div>
+    <div class="page"          id="page-articles"   data-page="articles">__ARTICLES__</div>
+    <div class="page"          id="page-examples"   data-page="examples">__EXAMPLES__</div>
+    <div class="page"          id="page-interview"  data-page="interview">__INTERVIEW__</div>
+    <div class="page"          id="page-stories"    data-page="stories">__STORIES__</div>
+    <div class="page"          id="page-about"      data-page="about">__ABOUT__</div>
+    <div class="page"          id="page-contact"    data-page="contact">__CONTACT__</div>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">__FOOTER__</footer>
+
+  <!-- ================= BACK TO TOP ================= -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <script src="main.js"></script>
+</body>
+</html>
