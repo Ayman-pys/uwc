@@ -796,7 +796,7 @@
            <strong>⚠️ Important disclaimer:</strong> This website is NOT affiliated with, endorsed by, sponsored by, or officially connected to UWC (United World Colleges). All information is based on publicly available resources and community experiences.
          </div>
          <div class="reveal" style="display:flex;flex-direction:column;gap:var(--space-md);font-size:1.05rem;line-height:1.8;color:var(--text)">
-           <p><strong>Pathways for UWC was created and is maintained by Kin</strong> — a single, independent student who went through the UWC application process and decided to build something to make it easier for others.</p>
+           <p>This website was made by KIN, a student with a simple goal: to make the world a better place through knowledge, technology, and positive impact.</p>
            <p>This project was developed voluntarily, as a non-commercial contribution. It is free to use, free to share, and will stay that way. No advertisements. No fees. No affiliations with any organisation.</p>
            <p>The frustration that started this project was simple: when students across many countries researched UWC, the guidance they found was scattered, often outdated, and inaccessible if you didn't already have a mentor or attend a well-resourced school. Pathways exists to close that gap.</p>
            <p>Everything here — the tips, the examples, the interview questions — comes from real experience, genuine research, and honest reflection. Nothing is invented or AI-fabricated. Sources are cited wherever content comes from external publications.</p>
