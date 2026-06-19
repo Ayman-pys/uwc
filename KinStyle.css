@@ -969,3 +969,7 @@ select:focus-visible, [tabindex]:focus-visible {
   .hero__title  { font-size: 2.1rem; }
   .newsletter   { padding: var(--space-lg) var(--space-sm); }
 }
+#page-tips .reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
